@@ -37,7 +37,7 @@ import { MapsComponent } from './maps/maps.component';
     FormsModule,
     SocialLoginModule,
     AgmCoreModule.forRoot({
-      apiKey:'AIzaSyBrP_pgby6ZG_YC6TXVax0XrN6kGBeSUvc'
+      apiKey:''
     })
   ],
   providers: [{
@@ -48,12 +48,12 @@ import { MapsComponent } from './maps/maps.component';
         {
           id: GoogleLoginProvider.PROVIDER_ID,
           provider: new GoogleLoginProvider(
-            '1031565430657-qu4173p34dir89b6bec7u94g8j0cbj33.apps.googleusercontent.com'
+            ''
           )
         },
         {
           id: FacebookLoginProvider.PROVIDER_ID,
-          provider: new FacebookLoginProvider('939574440160011')
+          provider: new FacebookLoginProvider('')
         },
       ]
     } as SocialAuthServiceConfig,
