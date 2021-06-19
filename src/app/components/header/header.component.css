@@ -1,0 +1,54 @@
+.myHeader{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.spacer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 0;
+}
+.mybrand_text{
+    font-family: 'Shanti';
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 64px;
+color: #FFFFFF;
+}
+.myBrand{
+    height: 80%;
+}
+.mybrand_text:hover{
+    cursor: pointer;
+}
+.btn-signup{
+    position: absolute;
+    right: 25px;
+    border: 0px;
+    height: 28px;
+    
+    font-family: 'Shanti';
+    font-size: 17px;
+    color: black;
+    border-radius: 12px;
+}
+.btn-signup:hover{
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    position: absolute;
+    right: 150px;
+}

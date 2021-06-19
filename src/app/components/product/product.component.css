@@ -1,0 +1,70 @@
+.list_item{
+    width: 250px;
+    height: 350px;
+}
+.div_product{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid Black;
+}
+.img_container{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    contain: content;
+}
+.product_img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    border: 0px;
+}
+.product_deets{
+    margin-top: 2px;
+    margin-left: 15px;
+    font-family: 'Shanti';
+    font-style: normal;
+    font-weight: normal;
+}
+.div_delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height:25px;
+    background-color: black;
+}
+.delivery_text{
+    margin-left: 15px;
+    font-family: 'Shanti';
+    color: white;
+}
+.btn-order{
+    width: 100px;
+    height: 25px;
+    font-family: 'Shanti';
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: 0px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-order:hover{
+    cursor: pointer;
+}
+.verified{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 130px;
+    width: 120px;
+}

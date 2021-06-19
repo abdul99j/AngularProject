@@ -1,0 +1,16 @@
+<link href='https://fonts.googleapis.com/css?family=Shanti' rel='stylesheet'>
+<div class="form-container">
+<form #SignUpForm="ngForm" (ngSubmit)="getSignUp(SignUpForm.value)" class = "form">
+    <a class = "PageText">Sign Up</a>
+    <div class = "form2">
+        <div class= "FirstName"><input ngModel type= "text2" name="firstname" placeholder="First Name"></div>
+        <div class= "LastName"><input ngModel type= "text3" name="lastname" placeholder="Last Name"></div>
+    </div>
+    <div class= "Email"><input ngModel type="text" name="email" placeholder="Email"></div>
+    <div class= "Password"><input ngModel type="password" name="password" placeholder="Password"></div>
+    <div class = "signUpbtn">
+        <button type="submit" class = "subutton">Sign Up</button>
+    </div>
+    <div class = "btext"><a class = "bottomtext">Already have an account? <a class = "Login">Log In</a></a></div>
+  </form>
+</div>
