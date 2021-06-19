@@ -14,8 +14,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { SocialLoginModule, SocialAuthServiceConfig } from "angularx-social-login";
 import { GoogleLoginProvider, FacebookLoginProvider} from "angularx-social-login";
-import { MapsComponent } from './maps/maps.component';
 import { AgmCoreModule } from '@agm/core';
+import { MapsComponent } from './maps/maps.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { AgmCoreModule } from '@agm/core';
     SignupComponent,
     FooterComponent,
     LoginComponent,
-    MapsComponent
+    MapsComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,8 +37,7 @@ import { AgmCoreModule } from '@agm/core';
     FormsModule,
     SocialLoginModule,
     AgmCoreModule.forRoot({
-      apiKey:'AIzaSyBrP_pgby6ZG_YC6TXVax0XrN6kGBeSUvc',
-      libraries:['places']
+      apiKey:'AIzaSyBrP_pgby6ZG_YC6TXVax0XrN6kGBeSUvc'
     })
   ],
   providers: [{
