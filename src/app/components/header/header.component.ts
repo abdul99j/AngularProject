@@ -21,4 +21,8 @@ export class HeaderComponent implements OnInit {
   goToLogin():void{
     this.router.navigate(['login']);
   }
+  goToMaps():void{
+    this.router.navigate(['location']);
+
+  }
 }

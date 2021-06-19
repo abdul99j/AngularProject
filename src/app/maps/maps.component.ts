@@ -9,13 +9,23 @@ export class MapsComponent implements OnInit {
   title='Angular Maps';
   latitude:number;
   longitude:number;
+  map: google.maps.Map; 
+  infoWindow: google.maps.InfoWindow;
 
-  constructor() { }
+  constructor() { 
+    if (navigator.geolocation)
+    {
+        navigator.geolocation.getCurrentPosition( pos => {
+        this.longitude = +pos.coords.longitude;
+        this.latitude = +pos.coords.latitude;
+      });
+    }}
 
   ngOnInit(): void {
-    this.latitude=13;
-    this.longitude=15;
+    console.log("IN MAPS Component");
+    }
 
-  }
+    
+  
 
 }

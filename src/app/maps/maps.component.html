@@ -1,1 +1,4 @@
-<p>maps works!</p>
+<h1> Your current location is:</h1>
+<agm-map style="height:600px" [zoom]='19' [latitude]="latitude" [longitude]="longitude">
+    <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+</agm-map>
